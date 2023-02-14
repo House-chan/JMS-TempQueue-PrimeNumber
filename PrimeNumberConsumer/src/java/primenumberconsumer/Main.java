@@ -44,15 +44,15 @@ public class Main {
             consumer.setMessageListener(listener);
             connection.start();
             
-//            String ch = "";
-//            Scanner inp = new Scanner(System.in);
-//            while(true) {
-//                System.out.print("Press q to quit ");
-//                ch = inp.nextLine();
-//                if (ch.equals("q")) {
-//                    break;
-//                }
-//            }
+            String ch = "";
+            Scanner inp = new Scanner(System.in);
+            while(true) {
+                System.out.print("Press q to quit ");
+                ch = inp.nextLine();
+                if (ch.equals("q")) {
+                    break;
+                }
+            }
             
             
         } catch (JMSException e) {
